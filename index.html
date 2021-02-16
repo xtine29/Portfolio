@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+	<!-- CSS -->
+  	<link rel="stylesheet" type="text/css" href="styles.css">
+
+  	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Truculenta:wght@500&display=swap" rel="stylesheet">
+
+	<!-- Google Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+	integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+</head>
+<body>
+	<header id="header">
+		<nav id="navbar" class="navlist">
+			<div> 
+      			<a href="#welcome-section" id="home" class="nav-link">HOME<i class="fas fa-home"></i></a>
+      			<a href="#projects" id="portfolio" class="nav-link">PORTFOLIO<i class="fas fa-briefcase"></i></a>
+      			<a href="#contact" id="contact-info" class="nav-link">CONTACT<i class="fas fa-id-card"></i></a>
+    		</div>
+  		</nav>
+  	</header>
+<main>
+<!-- HOME -->
+    <section id="welcome-section">
+    	<div class="welcome-container">
+    		<div class="intro-container">
+    			<h1>Hi! I'm <br>Christine Gonzales</h1>
+    			<p>
+    				A student at the University of the Cordilleras taking up Bachelor of Science in Information Technology major in Network Security.
+    			</p>
+    		</div>
+    	</div>
+    </section>
+<!-- PORTFOLIO -->
+	<section id="projects" class="project-section">
+		<h2>Portfolio</h2>
+		<div id="projects-info">
+			<div id="left">
+				<div class="project-tile">
+					<a href="https://xtine29.github.io/Tribute/" target="_blank" class="project">
+						<img class="project-image" src="images/tribute.png" alt="project"/>
+						<p class="project-title"> <span class="code">Tribute Page</span></p>
+        			</a>
+				</div>
+				<div class="project-tile">
+					<a href="https://xtine29.github.io/Product-Landing/" target="_blank" class="project">
+						<img class="project-image" src="images/product.png" alt="project"/>
+						<p class="project-title"><span class="code">Product Landing Page</span></p>
+        			</a>
+				</div>
+			</div>
+			<div id="right">
+				<div class="project-tile">
+					<a href="https://xtine29.github.io/Survery-Form/" target="_blank" class="project">
+						<img class="project-image" src="images/survey.png" alt="project"/>
+						<p class="project-title"><span class="code">Survey Form Page</span></p>
+        				</a>
+				</div>
+				<div class="project-tile">
+					<a href="https://xtine29.github.io/Technical-Documentation/" target="_blank" class="project">
+						<img class="project-image" src="images/technidoc.png" alt="project"/>
+        				<p class="project-title"><span class="code">Technical Documentation</span></p>
+        			</a>
+				</div>
+			</div>
+		</div>
+	</section>
+<!-- CONTACT -->
+	<section id="contact" class="contactus">
+		<h2>CONTACT</h2>
+		<p>If you have questions or concerns, just let me know.</p>
+      	<div class="contact-detail">
+          	<div class="contact-container">
+        		<form id="form" action="https://www.freecodecamp.com/email-submit">
+            		<input type="email" id="email" class="input-contact" placeholder="Email Address*" required/>
+            		<div>
+            			<input type="text" id="message" class="input-contact" placeholder="Message"/>
+            		</div>
+          			<div id="contact-button">
+            			<input 
+            				type="submit"
+            				value="SUBMIT"/>
+          			</div>
+          			</form>
+          		</div>
+      			<div id="links">
+        			<a href="https://www.facebook.com/xt.tine" target="_blank" class="btn profile-link"><i class="fab fa-facebook-square"></i>Facebook</a>
+        			<a href="https://twitter.com/" target="_blank" class="btn profile-link"><i class="fab fa-twitter"></i>Twitter</a>
+        			<a id="profile-link" href="https://github.com/xtine29" target="_blank" class="btn profile-link"><i class="fab fa-github"></i>GitHub</a>
+      			</div>
+      	</div>
+	</section>
+</main>
+<!-- FOOTER  -->	
+	<footer>
+		<p>Copyright &copy; 2021 by Christine Gonzales. All rights reserved.
+	</footer>
+</body>
+</html>
